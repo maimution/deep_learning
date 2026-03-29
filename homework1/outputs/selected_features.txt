@@ -1,0 +1,7 @@
+Selected features based on absolute correlation:
+cement
+superplasticizer
+age
+water
+fineaggregate
+coarseaggregate
