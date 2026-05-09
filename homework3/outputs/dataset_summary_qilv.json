@@ -1,0 +1,8 @@
+{
+  "poem_format": "qilv",
+  "total_poems": 1075,
+  "train_poems": 1075,
+  "val_poems": 0,
+  "vocab_size": 3858,
+  "format": "<BOS> + 8 lines x 7 chars, punctuation kept + <EOS>"
+}

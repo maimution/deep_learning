@@ -1,0 +1,7 @@
+{
+  "total_poems": 905,
+  "train_poems": 905,
+  "val_poems": 0,
+  "vocab_size": 2836,
+  "format": "<BOS> + 7 chars + ， + 7 chars + 。 + 7 chars + ， + 7 chars + 。 + <EOS>"
+}
