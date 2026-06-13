@@ -1,0 +1,42 @@
+{
+  "reference_accuracy_from_homework2": 95.6131,
+  "measured_fp32_accuracy": 95.6093,
+  "measured_int8_accuracy": 95.5094,
+  "fp32_test_loss": 0.182732,
+  "int8_test_loss": 0.183837,
+  "accuracy_drop": 0.0999,
+  "fp32_model_size_mb": 4.5227,
+  "int8_model_size_mb": 1.1394,
+  "compression_ratio": 3.9694,
+  "fp32_latency_ms": 3.880316,
+  "int8_latency_ms": 1.693433,
+  "speedup_ratio": 2.2914,
+  "calibration_size": 2048,
+  "latency_runs": 300,
+  "latency_warmup": 50,
+  "latency_threads": 1,
+  "quant_backend": "x86",
+  "manual_quantization": {
+    "first_conv_weight_scale": 0.0023249449,
+    "first_conv_weight_zero_point": 3,
+    "first_conv_weight_mse": 4.483e-07,
+    "first_activation_scale": 0.0194080241,
+    "first_activation_zero_point": 0,
+    "first_activation_mse": 1.88882e-05
+  },
+  "per_layer_mse": {
+    "block1_relu1": 5.79942e-05,
+    "block1_relu2": 2.60887e-05,
+    "pool1": 3.4598e-05,
+    "block2_relu1": 3.46333e-05,
+    "block2_relu2": 4.77642e-05,
+    "pool2": 7.83436e-05,
+    "block3_relu1": 4.24684e-05,
+    "block3_relu2": 0.0002246653,
+    "adaptive_pool": 8.26485e-05,
+    "classifier_relu": 0.0001546343,
+    "logits": 0.0095380444
+  },
+  "source_checkpoint": "/home/jdan/Code/deep_learning/homework2/outputs/baseline_cnn/best.pt",
+  "source_reference_summary": "/home/jdan/Code/deep_learning/homework2/outputs/baseline_cnn/summary.json"
+}

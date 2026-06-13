@@ -1,0 +1,3 @@
+model,accuracy,model_size_mb,latency_ms
+fp32,95.6093,4.5227,3.880316
+int8,95.5094,1.1394,1.693433

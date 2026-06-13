@@ -1,0 +1,12 @@
+layer,mse
+block1_relu1,5.79942e-05
+block1_relu2,2.60887e-05
+pool1,3.4598e-05
+block2_relu1,3.46333e-05
+block2_relu2,4.77642e-05
+pool2,7.83436e-05
+block3_relu1,4.24684e-05
+block3_relu2,0.0002246653
+adaptive_pool,8.26485e-05
+classifier_relu,0.0001546343
+logits,0.0095380444
