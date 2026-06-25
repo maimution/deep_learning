@@ -1,0 +1,74 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[conv_retrain] model=convnext_tiny size=96px  data=data/processed_official  best-by=train-set  train class counts: {'none': 36730, 'Center': 3462, 'Donut': 409, 'Edge-Loc': 2417, 'Edge-Ring': 8554, 'Loc': 1620, 'Near-full': 54, 'Random': 609, 'Scratch': 500}
+[conv_retrain] ep 00  loss 0.2355  train_acc 0.2763  train_macroF1 0.2662  (28s)
+[conv_retrain] ep 01  loss 0.1681  train_acc 0.9084  train_macroF1 0.6765  (20s)
+[conv_retrain] ep 02  loss 0.1699  train_acc 0.9724  train_macroF1 0.8774  (19s)
+[conv_retrain] ep 03  loss 0.1713  train_acc 0.9843  train_macroF1 0.8962  (21s)
+[conv_retrain] ep 04  loss 0.1675  train_acc 0.9883  train_macroF1 0.9119  (19s)
+[conv_retrain] ep 05  loss 0.1617  train_acc 0.9903  train_macroF1 0.9246  (21s)
+[conv_retrain] ep 06  loss 0.1610  train_acc 0.9913  train_macroF1 0.9370  (19s)
+[conv_retrain] ep 07  loss 0.1609  train_acc 0.9912  train_macroF1 0.9371  (20s)
+[conv_retrain] ep 08  loss 0.1569  train_acc 0.9918  train_macroF1 0.9414  (20s)
+[conv_retrain] ep 09  loss 0.1544  train_acc 0.9919  train_macroF1 0.9448  (19s)
+[conv_retrain] ep 10  loss 0.1562  train_acc 0.9923  train_macroF1 0.9492  (19s)
+[conv_retrain] ep 11  loss 0.1556  train_acc 0.9929  train_macroF1 0.9538  (19s)
+[conv_retrain] ep 12  loss 0.1551  train_acc 0.9933  train_macroF1 0.9595  (20s)
+[conv_retrain] ep 13  loss 0.1540  train_acc 0.9933  train_macroF1 0.9599  (21s)
+[conv_retrain] ep 14  loss 0.1526  train_acc 0.9936  train_macroF1 0.9667  (20s)
+[conv_retrain] ep 15  loss 0.1518  train_acc 0.9934  train_macroF1 0.9669  (19s)
+[conv_retrain] ep 16  loss 0.1528  train_acc 0.9937  train_macroF1 0.9715  (20s)
+[conv_retrain] ep 17  loss 0.1521  train_acc 0.9938  train_macroF1 0.9716  (19s)
+[conv_retrain] ep 18  loss 0.1528  train_acc 0.9941  train_macroF1 0.9720  (20s)
+[conv_retrain] ep 19  loss 0.1547  train_acc 0.9940  train_macroF1 0.9598  (19s)
+[conv_retrain] ep 20  loss 0.1511  train_acc 0.9942  train_macroF1 0.9568  (20s)
+[conv_retrain] ep 21  loss 0.1493  train_acc 0.9943  train_macroF1 0.9586  (19s)
+[conv_retrain] ep 22  loss 0.1490  train_acc 0.9948  train_macroF1 0.9635  (19s)
+[conv_retrain] ep 23  loss 0.1479  train_acc 0.9950  train_macroF1 0.9715  (19s)
+[conv_retrain] ep 24  loss 0.1507  train_acc 0.9951  train_macroF1 0.9724  (19s)
+[conv_retrain] ep 25  loss 0.1490  train_acc 0.9951  train_macroF1 0.9731  (19s)
+[conv_retrain] ep 26  loss 0.1479  train_acc 0.9953  train_macroF1 0.9781  (21s)
+[conv_retrain] ep 27  loss 0.1460  train_acc 0.9954  train_macroF1 0.9789  (21s)
+[conv_retrain] ep 28  loss 0.1482  train_acc 0.9957  train_macroF1 0.9795  (21s)
+[conv_retrain] ep 29  loss 0.1469  train_acc 0.9957  train_macroF1 0.9796  (19s)
+[conv_retrain] ep 30  loss 0.1468  train_acc 0.9958  train_macroF1 0.9775  (19s)
+[conv_retrain] ep 31  loss 0.1466  train_acc 0.9959  train_macroF1 0.9780  (19s)
+[conv_retrain] ep 32  loss 0.1464  train_acc 0.9960  train_macroF1 0.9788  (19s)
+[conv_retrain] ep 33  loss 0.1452  train_acc 0.9961  train_macroF1 0.9769  (19s)
+[conv_retrain] ep 34  loss 0.1449  train_acc 0.9960  train_macroF1 0.9763  (19s)
+[conv_retrain] ep 35  loss 0.1459  train_acc 0.9960  train_macroF1 0.9809  (19s)
+[conv_retrain] ep 36  loss 0.1441  train_acc 0.9962  train_macroF1 0.9843  (19s)
+[conv_retrain] ep 37  loss 0.1439  train_acc 0.9963  train_macroF1 0.9842  (20s)
+[conv_retrain] ep 38  loss 0.1435  train_acc 0.9964  train_macroF1 0.9844  (19s)
+[conv_retrain] ep 39  loss 0.1427  train_acc 0.9967  train_macroF1 0.9850  (20s)
+[conv_retrain] ep 40  loss 0.1428  train_acc 0.9968  train_macroF1 0.9849  (20s)
+[conv_retrain] ep 41  loss 0.1428  train_acc 0.9969  train_macroF1 0.9885  (22s)
+[conv_retrain] ep 42  loss 0.1423  train_acc 0.9971  train_macroF1 0.9919  (19s)
+[conv_retrain] ep 43  loss 0.1421  train_acc 0.9972  train_macroF1 0.9922  (19s)
+[conv_retrain] ep 44  loss 0.1418  train_acc 0.9974  train_macroF1 0.9938  (19s)
+[conv_retrain] ep 45  loss 0.1415  train_acc 0.9977  train_macroF1 0.9949  (19s)
+[conv_retrain] ep 46  loss 0.1410  train_acc 0.9977  train_macroF1 0.9948  (19s)
+[conv_retrain] ep 47  loss 0.1407  train_acc 0.9977  train_macroF1 0.9949  (19s)
+[conv_retrain] ep 48  loss 0.1410  train_acc 0.9979  train_macroF1 0.9957  (19s)
+[conv_retrain] ep 49  loss 0.1409  train_acc 0.9979  train_macroF1 0.9957  (19s)
+[conv_retrain] ep 50  loss 0.1405  train_acc 0.9979  train_macroF1 0.9954  (19s)
+[conv_retrain] ep 51  loss 0.1403  train_acc 0.9979  train_macroF1 0.9954  (19s)
+[conv_retrain] ep 52  loss 0.1402  train_acc 0.9980  train_macroF1 0.9955  (19s)
+[conv_retrain] ep 53  loss 0.1404  train_acc 0.9980  train_macroF1 0.9955  (19s)
+[conv_retrain] ep 54  loss 0.1402  train_acc 0.9982  train_macroF1 0.9961  (20s)
+[conv_retrain] ep 55  loss 0.1401  train_acc 0.9983  train_macroF1 0.9965  (21s)
+[conv_retrain] ep 56  loss 0.1399  train_acc 0.9983  train_macroF1 0.9966  (20s)
+[conv_retrain] ep 57  loss 0.1399  train_acc 0.9985  train_macroF1 0.9970  (19s)
+[conv_retrain] ep 58  loss 0.1401  train_acc 0.9986  train_macroF1 0.9972  (19s)
+[conv_retrain] ep 59  loss 0.1401  train_acc 0.9986  train_macroF1 0.9972  (19s)
+
+=== [conv_retrain] TEST  acc 0.9700  macroF1 0.7830  MCC 0.7635 ===
+  none         f1 0.9871
+  Center       f1 0.6991
+  Donut        f1 0.7308
+  Edge-Loc     f1 0.7390
+  Edge-Ring    f1 0.8739
+  Loc          f1 0.6359
+  Near-full    f1 0.9574
+  Random       f1 0.7356
+  Scratch      f1 0.6878
+[conv_retrain] saved outputs/best_conv_retrain.pt and metrics_conv_retrain.json

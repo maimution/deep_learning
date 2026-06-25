@@ -1,0 +1,66 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+/home/jdan/anaconda3/envs/deepLearning/lib/python3.10/site-packages/timm/layers/interpolate.py:47: UserWarning: torch.searchsorted(): input value tensor is non-contiguous, this will lower the performance due to extra data copy when converting non-contiguous tensor to contiguous, please use contiguous input value tensor if possible. This message will only appear once per program. (Triggered internally at ../aten/src/ATen/native/BucketizationUtils.h:32.)
+  idx_right = torch.bucketize(x, p)
+[swin_base] model=swin_tiny_patch4_window7_224 size=96px  data=data/processed_official  best-by=train-set  train class counts: {'none': 36730, 'Center': 3462, 'Donut': 409, 'Edge-Loc': 2417, 'Edge-Ring': 8554, 'Loc': 1620, 'Near-full': 54, 'Random': 609, 'Scratch': 500}
+[swin_base] ep 00  loss 0.2259  train_acc 0.7907  train_macroF1 0.3963  (28s)
+[swin_base] ep 01  loss 0.1678  train_acc 0.9155  train_macroF1 0.6817  (25s)
+[swin_base] ep 02  loss 0.1618  train_acc 0.9699  train_macroF1 0.8428  (25s)
+[swin_base] ep 03  loss 0.1607  train_acc 0.9850  train_macroF1 0.9039  (25s)
+[swin_base] ep 04  loss 0.1625  train_acc 0.9887  train_macroF1 0.9291  (25s)
+[swin_base] ep 05  loss 0.1627  train_acc 0.9895  train_macroF1 0.9317  (25s)
+[swin_base] ep 06  loss 0.1639  train_acc 0.9893  train_macroF1 0.9238  (25s)
+[swin_base] ep 07  loss 0.1614  train_acc 0.9899  train_macroF1 0.9351  (25s)
+[swin_base] ep 08  loss 0.1634  train_acc 0.9906  train_macroF1 0.9423  (30s)
+[swin_base] ep 09  loss 0.1607  train_acc 0.9901  train_macroF1 0.9411  (29s)
+[swin_base] ep 10  loss 0.1608  train_acc 0.9910  train_macroF1 0.9487  (25s)
+[swin_base] ep 11  loss 0.1618  train_acc 0.9906  train_macroF1 0.9356  (25s)
+[swin_base] ep 12  loss 0.1574  train_acc 0.9907  train_macroF1 0.9410  (25s)
+[swin_base] ep 13  loss 0.1569  train_acc 0.9906  train_macroF1 0.9455  (25s)
+[swin_base] ep 14  loss 0.1553  train_acc 0.9907  train_macroF1 0.9532  (25s)
+[swin_base] ep 15  loss 0.1560  train_acc 0.9905  train_macroF1 0.9549  (26s)
+[swin_base] ep 16  loss 0.1571  train_acc 0.9905  train_macroF1 0.9558  (25s)
+[swin_base] ep 17  loss 0.1548  train_acc 0.9911  train_macroF1 0.9599  (25s)
+[swin_base] ep 18  loss 0.1536  train_acc 0.9917  train_macroF1 0.9594  (26s)
+[swin_base] ep 19  loss 0.1562  train_acc 0.9915  train_macroF1 0.9546  (30s)
+[swin_base] ep 20  loss 0.1546  train_acc 0.9915  train_macroF1 0.9581  (28s)
+[swin_base] ep 21  loss 0.1526  train_acc 0.9919  train_macroF1 0.9616  (26s)
+[swin_base] ep 22  loss 0.1532  train_acc 0.9917  train_macroF1 0.9614  (26s)
+[swin_base] ep 23  loss 0.1522  train_acc 0.9920  train_macroF1 0.9623  (26s)
+[swin_base] ep 24  loss 0.1533  train_acc 0.9919  train_macroF1 0.9631  (26s)
+[swin_base] ep 25  loss 0.1527  train_acc 0.9911  train_macroF1 0.9513  (26s)
+[swin_base] ep 26  loss 0.1501  train_acc 0.9917  train_macroF1 0.9532  (25s)
+[swin_base] ep 27  loss 0.1497  train_acc 0.9922  train_macroF1 0.9556  (26s)
+[swin_base] ep 28  loss 0.1477  train_acc 0.9924  train_macroF1 0.9601  (26s)
+[swin_base] ep 29  loss 0.1476  train_acc 0.9929  train_macroF1 0.9618  (26s)
+[swin_base] ep 30  loss 0.1473  train_acc 0.9936  train_macroF1 0.9679  (27s)
+[swin_base] ep 31  loss 0.1470  train_acc 0.9938  train_macroF1 0.9752  (27s)
+[swin_base] ep 32  loss 0.1457  train_acc 0.9938  train_macroF1 0.9751  (27s)
+[swin_base] ep 33  loss 0.1470  train_acc 0.9942  train_macroF1 0.9768  (26s)
+[swin_base] ep 34  loss 0.1451  train_acc 0.9943  train_macroF1 0.9773  (26s)
+[swin_base] ep 35  loss 0.1445  train_acc 0.9944  train_macroF1 0.9774  (27s)
+[swin_base] ep 36  loss 0.1446  train_acc 0.9948  train_macroF1 0.9791  (28s)
+[swin_base] ep 37  loss 0.1440  train_acc 0.9950  train_macroF1 0.9834  (30s)
+[swin_base] ep 38  loss 0.1435  train_acc 0.9949  train_macroF1 0.9837  (26s)
+[swin_base] ep 39  loss 0.1430  train_acc 0.9951  train_macroF1 0.9876  (26s)
+[swin_base] ep 40  loss 0.1430  train_acc 0.9956  train_macroF1 0.9892  (26s)
+[swin_base] ep 41  loss 0.1425  train_acc 0.9957  train_macroF1 0.9893  (25s)
+[swin_base] ep 42  loss 0.1422  train_acc 0.9954  train_macroF1 0.9858  (25s)
+[swin_base] ep 43  loss 0.1418  train_acc 0.9957  train_macroF1 0.9871  (26s)
+[swin_base] ep 44  loss 0.1417  train_acc 0.9959  train_macroF1 0.9903  (26s)
+[swin_base] ep 45  loss 0.1413  train_acc 0.9960  train_macroF1 0.9904  (25s)
+[swin_base] ep 46  loss 0.1416  train_acc 0.9960  train_macroF1 0.9905  (26s)
+[swin_base] ep 47  loss 0.1415  train_acc 0.9961  train_macroF1 0.9909  (28s)
+[swin_base] ep 48  loss 0.1416  train_acc 0.9962  train_macroF1 0.9908  (28s)
+[swin_base] ep 49  loss 0.1412  train_acc 0.9962  train_macroF1 0.9907  (27s)
+
+=== [swin_base] TEST  acc 0.9681  macroF1 0.7668  MCC 0.7587 ===
+  none         f1 0.9864
+  Center       f1 0.6963
+  Donut        f1 0.6335
+  Edge-Loc     f1 0.7305
+  Edge-Ring    f1 0.8680
+  Loc          f1 0.6580
+  Near-full    f1 0.9524
+  Random       f1 0.7409
+  Scratch      f1 0.6351
+[swin_base] saved outputs_pseudo/best_swin_base.pt and metrics_swin_base.json

@@ -1,0 +1,53 @@
+[effb1_base] model=efficientnet_b1 size=96px  data=data/processed_official  best-by=train-set  train class counts: {'none': 36730, 'Center': 3462, 'Donut': 409, 'Edge-Loc': 2417, 'Edge-Ring': 8554, 'Loc': 1620, 'Near-full': 54, 'Random': 609, 'Scratch': 500}
+[effb1_base] ep 00  loss 0.4120  train_acc 0.1245  train_macroF1 0.0462  (31s)
+[effb1_base] ep 01  loss 0.1860  train_acc 0.6771  train_macroF1 0.1349  (16s)
+[effb1_base] ep 02  loss 0.1860  train_acc 0.6692  train_macroF1 0.1097  (17s)
+[effb1_base] ep 03  loss 0.1719  train_acc 0.6696  train_macroF1 0.1247  (15s)
+[effb1_base] ep 04  loss 0.1639  train_acc 0.6812  train_macroF1 0.2213  (18s)
+[effb1_base] ep 05  loss 0.1612  train_acc 0.7475  train_macroF1 0.3880  (16s)
+[effb1_base] ep 06  loss 0.1604  train_acc 0.8403  train_macroF1 0.5636  (16s)
+[effb1_base] ep 07  loss 0.1573  train_acc 0.8991  train_macroF1 0.6998  (17s)
+[effb1_base] ep 08  loss 0.1593  train_acc 0.9263  train_macroF1 0.7802  (16s)
+[effb1_base] ep 09  loss 0.1576  train_acc 0.9490  train_macroF1 0.8437  (18s)
+[effb1_base] ep 10  loss 0.1570  train_acc 0.9666  train_macroF1 0.8849  (16s)
+[effb1_base] ep 11  loss 0.1539  train_acc 0.9756  train_macroF1 0.9055  (21s)
+[effb1_base] ep 12  loss 0.1536  train_acc 0.9819  train_macroF1 0.9247  (26s)
+[effb1_base] ep 13  loss 0.1538  train_acc 0.9868  train_macroF1 0.9358  (26s)
+[effb1_base] ep 14  loss 0.1536  train_acc 0.9895  train_macroF1 0.9488  (16s)
+[effb1_base] ep 15  loss 0.1519  train_acc 0.9915  train_macroF1 0.9534  (17s)
+[effb1_base] ep 16  loss 0.1509  train_acc 0.9928  train_macroF1 0.9598  (15s)
+[effb1_base] ep 17  loss 0.1511  train_acc 0.9930  train_macroF1 0.9615  (16s)
+[effb1_base] ep 18  loss 0.1497  train_acc 0.9938  train_macroF1 0.9671  (17s)
+[effb1_base] ep 19  loss 0.1499  train_acc 0.9946  train_macroF1 0.9741  (16s)
+[effb1_base] ep 20  loss 0.1501  train_acc 0.9944  train_macroF1 0.9733  (17s)
+[effb1_base] ep 21  loss 0.1486  train_acc 0.9950  train_macroF1 0.9754  (16s)
+[effb1_base] ep 22  loss 0.1481  train_acc 0.9950  train_macroF1 0.9765  (16s)
+[effb1_base] ep 23  loss 0.1491  train_acc 0.9951  train_macroF1 0.9773  (18s)
+[effb1_base] ep 24  loss 0.1471  train_acc 0.9954  train_macroF1 0.9786  (16s)
+[effb1_base] ep 25  loss 0.1462  train_acc 0.9957  train_macroF1 0.9798  (18s)
+[effb1_base] ep 26  loss 0.1450  train_acc 0.9957  train_macroF1 0.9797  (16s)
+[effb1_base] ep 27  loss 0.1451  train_acc 0.9960  train_macroF1 0.9833  (22s)
+[effb1_base] ep 28  loss 0.1442  train_acc 0.9965  train_macroF1 0.9874  (27s)
+[effb1_base] ep 29  loss 0.1438  train_acc 0.9967  train_macroF1 0.9881  (20s)
+[effb1_base] ep 30  loss 0.1428  train_acc 0.9967  train_macroF1 0.9882  (16s)
+[effb1_base] ep 31  loss 0.1428  train_acc 0.9971  train_macroF1 0.9899  (19s)
+[effb1_base] ep 32  loss 0.1427  train_acc 0.9972  train_macroF1 0.9899  (15s)
+[effb1_base] ep 33  loss 0.1419  train_acc 0.9973  train_macroF1 0.9924  (16s)
+[effb1_base] ep 34  loss 0.1419  train_acc 0.9974  train_macroF1 0.9925  (18s)
+[effb1_base] ep 35  loss 0.1419  train_acc 0.9974  train_macroF1 0.9927  (15s)
+[effb1_base] ep 36  loss 0.1412  train_acc 0.9977  train_macroF1 0.9935  (19s)
+[effb1_base] ep 37  loss 0.1412  train_acc 0.9978  train_macroF1 0.9941  (17s)
+[effb1_base] ep 38  loss 0.1410  train_acc 0.9979  train_macroF1 0.9948  (18s)
+[effb1_base] ep 39  loss 0.1410  train_acc 0.9981  train_macroF1 0.9957  (16s)
+
+=== [effb1_base] TEST  acc 0.9720  macroF1 0.7798  MCC 0.7749 ===
+  none         f1 0.9881
+  Center       f1 0.7103
+  Donut        f1 0.7283
+  Edge-Loc     f1 0.7664
+  Edge-Ring    f1 0.8327
+  Loc          f1 0.6743
+  Near-full    f1 0.9418
+  Random       f1 0.6911
+  Scratch      f1 0.6851
+[effb1_base] saved outputs_pseudo/best_effb1_base.pt and metrics_effb1_base.json

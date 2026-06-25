@@ -1,0 +1,54 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[effb1] model=efficientnet_b1 size=64px  train class counts: {'none': 103202, 'Center': 3006, 'Donut': 389, 'Edge-Loc': 3632, 'Edge-Ring': 6776, 'Loc': 2515, 'Near-full': 104, 'Random': 606, 'Scratch': 835}
+[effb1] ep 00  loss 0.4597  val_acc 0.8525  val_macroF1 0.1047  (43s)
+[effb1] ep 01  loss 0.2330  val_acc 0.8532  val_macroF1 0.1189  (48s)
+[effb1] ep 02  loss 0.2305  val_acc 0.8805  val_macroF1 0.3211  (38s)
+[effb1] ep 03  loss 0.2234  val_acc 0.8900  val_macroF1 0.3764  (30s)
+[effb1] ep 04  loss 0.2138  val_acc 0.9231  val_macroF1 0.5479  (34s)
+[effb1] ep 05  loss 0.2122  val_acc 0.9531  val_macroF1 0.7583  (31s)
+[effb1] ep 06  loss 0.2099  val_acc 0.9679  val_macroF1 0.8266  (32s)
+[effb1] ep 07  loss 0.2080  val_acc 0.9744  val_macroF1 0.8543  (31s)
+[effb1] ep 08  loss 0.2062  val_acc 0.9759  val_macroF1 0.8659  (30s)
+[effb1] ep 09  loss 0.2047  val_acc 0.9784  val_macroF1 0.8772  (39s)
+[effb1] ep 10  loss 0.2037  val_acc 0.9786  val_macroF1 0.8803  (43s)
+[effb1] ep 11  loss 0.2031  val_acc 0.9788  val_macroF1 0.8836  (31s)
+[effb1] ep 12  loss 0.2021  val_acc 0.9785  val_macroF1 0.8827  (32s)
+[effb1] ep 13  loss 0.2007  val_acc 0.9778  val_macroF1 0.8820  (30s)
+[effb1] ep 14  loss 0.1995  val_acc 0.9786  val_macroF1 0.8874  (30s)
+[effb1] ep 15  loss 0.1982  val_acc 0.9782  val_macroF1 0.8877  (31s)
+[effb1] ep 16  loss 0.1991  val_acc 0.9791  val_macroF1 0.8909  (31s)
+[effb1] ep 17  loss 0.1968  val_acc 0.9794  val_macroF1 0.8943  (31s)
+[effb1] ep 18  loss 0.1954  val_acc 0.9801  val_macroF1 0.8977  (32s)
+[effb1] ep 19  loss 0.1936  val_acc 0.9800  val_macroF1 0.9010  (36s)
+[effb1] ep 20  loss 0.1925  val_acc 0.9804  val_macroF1 0.9011  (35s)
+[effb1] ep 21  loss 0.1921  val_acc 0.9808  val_macroF1 0.9009  (36s)
+[effb1] ep 22  loss 0.1896  val_acc 0.9815  val_macroF1 0.9038  (35s)
+[effb1] ep 23  loss 0.1894  val_acc 0.9820  val_macroF1 0.9053  (35s)
+[effb1] ep 24  loss 0.1877  val_acc 0.9819  val_macroF1 0.9075  (51s)
+[effb1] ep 25  loss 0.1859  val_acc 0.9820  val_macroF1 0.9065  (33s)
+[effb1] ep 26  loss 0.1847  val_acc 0.9822  val_macroF1 0.9104  (30s)
+[effb1] ep 27  loss 0.1834  val_acc 0.9817  val_macroF1 0.9125  (31s)
+[effb1] ep 28  loss 0.1826  val_acc 0.9820  val_macroF1 0.9136  (31s)
+[effb1] ep 29  loss 0.1808  val_acc 0.9814  val_macroF1 0.9118  (31s)
+[effb1] ep 30  loss 0.1797  val_acc 0.9813  val_macroF1 0.9110  (33s)
+[effb1] ep 31  loss 0.1787  val_acc 0.9812  val_macroF1 0.9145  (30s)
+[effb1] ep 32  loss 0.1773  val_acc 0.9812  val_macroF1 0.9146  (45s)
+[effb1] ep 33  loss 0.1764  val_acc 0.9810  val_macroF1 0.9143  (35s)
+[effb1] ep 34  loss 0.1759  val_acc 0.9807  val_macroF1 0.9144  (30s)
+[effb1] ep 35  loss 0.1749  val_acc 0.9801  val_macroF1 0.9126  (31s)
+[effb1] ep 36  loss 0.1744  val_acc 0.9793  val_macroF1 0.9112  (29s)
+[effb1] ep 37  loss 0.1741  val_acc 0.9790  val_macroF1 0.9099  (31s)
+[effb1] ep 38  loss 0.1740  val_acc 0.9786  val_macroF1 0.9091  (31s)
+[effb1] ep 39  loss 0.1739  val_acc 0.9783  val_macroF1 0.9069  (30s)
+
+=== [effb1] TEST  acc 0.9813  macroF1 0.9117  MCC 0.9317 ===
+  none         f1 0.9918
+  Center       f1 0.9396
+  Donut        f1 0.9048
+  Edge-Loc     f1 0.8768
+  Edge-Ring    f1 0.9846
+  Loc          f1 0.8551
+  Near-full    f1 0.9565
+  Random       f1 0.9084
+  Scratch      f1 0.7880
+[effb1] saved outputs/best_effb1.pt and metrics_effb1.json
